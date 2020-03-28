@@ -11,9 +11,8 @@ import javax.persistence.Id;
 import java.math.BigDecimal;
 import java.util.Date;
 
-@Entity
-
 @Data
+@Entity
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
