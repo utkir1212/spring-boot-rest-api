@@ -11,10 +11,12 @@
 
     <groupId>com.example</groupId>
     <artifactId>demo-rest-api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <version>1.0</version>
+<!--    <packaging>jar</packaging>-->
+        <packaging>war</packaging>
 
-    <name>demo-api</name>
+
+    <name>docker-spring-boot</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -80,6 +82,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>demo-rest-api</finalName>
     </build>
 
 </project>
